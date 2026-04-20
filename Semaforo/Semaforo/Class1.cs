@@ -10,6 +10,7 @@ namespace Semaforo
     {
         public string color;
         public int segundos = 0;
+        public bool intermitente = false;
 
         public string mostrarColor()
         {
@@ -18,17 +19,12 @@ namespace Semaforo
 
         public void ponerEnIntermitente() 
         {
-            if (segundos % 2 == 0)
-                color = "Amarillo";
-            else
-                color = "Apagado";
-
-            segundos++;
+            intermitente = true;
         }
 
         public void sacarDeIntermitente()
         {
-            pasoDelTiempo(segundos);
+            intermitente = false;
         }
 
         public void pasoDelTiempo(int mas_segundos)
@@ -41,32 +37,44 @@ namespace Semaforo
 
                 cambio = false;
 
-                if (color == "Rojo" && segundos >= 30)
+                if (intermitente)
                 {
-                    color = "Rojo + Amarillo";
-                    segundos -= 30;
-                    cambio = true;
+                    if (segundos % 2 == 0)
+                        color = "Amarillo";
+                    else
+                        color = "Apagado";
+
+                    segundos++;
                 }
 
-                 else if (color == "Rojo + Amarillo" && segundos >= 2)
-                {
-                    color = "Verde";
-                    segundos -= 2;
-                    cambio = true;
-                }
+                else { 
+                    if (color == "Rojo" && segundos >= 30)
+                    {
+                        color = "Rojo + Amarillo";
+                        segundos -= 30;
+                        cambio = true;
+                    }
 
-                else if (color == "Verde" && segundos >= 20)
-                {
-                    color = "Amarillo";
-                    segundos -= 20;
-                    cambio = true;
-                }
+                     else if (color == "Rojo + Amarillo" && segundos >= 2)
+                    {
+                        color = "Verde";
+                        segundos -= 2;
+                        cambio = true;
+                    }
 
-                else if (color == "Amarillo" && segundos >= 2)
-                {
-                    color = "Rojo";
-                    segundos -= 2;
-                    cambio = true;
+                    else if (color == "Verde" && segundos >= 20)
+                    {
+                        color = "Amarillo";
+                        segundos -= 20;
+                        cambio = true;
+                    }
+
+                    else if (color == "Amarillo" && segundos >= 2)
+                    {
+                        color = "Rojo";
+                        segundos -= 2;
+                        cambio = true;
+                    }
                 }
             }
         }
