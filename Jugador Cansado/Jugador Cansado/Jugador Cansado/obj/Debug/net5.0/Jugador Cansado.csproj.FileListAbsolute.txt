@@ -1,0 +1,16 @@
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.exe
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.deps.json
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.runtimeconfig.json
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.runtimeconfig.dev.json
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.dll
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\ref\Jugador Cansado.dll
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\bin\Debug\net5.0\Jugador Cansado.pdb
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.csproj.AssemblyReference.cache
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.AssemblyInfoInputs.cache
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.AssemblyInfo.cs
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.csproj.CoreCompileInputs.cache
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.dll
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\ref\Jugador Cansado.dll
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.pdb
+C:\Users\Punto Digital\Desktop\Jugador Cansado\Jugador Cansado\Jugador Cansado\obj\Debug\net5.0\Jugador Cansado.genruntimeconfig.cache
