@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Punto Digital\\Desktop\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj": {}
+    "C:\\Users\\Punto Digital\\Desktop\\Cajero\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Punto Digital\\Desktop\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj": {
+    "C:\\Users\\Punto Digital\\Desktop\\Cajero\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Punto Digital\\Desktop\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj",
+        "projectUniqueName": "C:\\Users\\Punto Digital\\Desktop\\Cajero\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj",
         "projectName": "Cajero Automatico",
-        "projectPath": "C:\\Users\\Punto Digital\\Desktop\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj",
+        "projectPath": "C:\\Users\\Punto Digital\\Desktop\\Cajero\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico.csproj",
         "packagesPath": "C:\\Users\\Punto Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Punto Digital\\Desktop\\Cajero Automatico\\Cajero Automatico\\obj\\",
+        "outputPath": "C:\\Users\\Punto Digital\\Desktop\\Cajero\\Cajero Automatico\\Cajero Automatico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Punto Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",

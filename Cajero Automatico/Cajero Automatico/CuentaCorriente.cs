@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cajero_Automatico
 {
-    class CuentaCorriente : CuentaBancaria
+    public class CuentaCorriente : CuentaBancaria
     {
         private float limite { get; set; }
 

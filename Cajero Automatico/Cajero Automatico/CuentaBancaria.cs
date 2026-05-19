@@ -18,9 +18,13 @@ namespace Cajero_Automatico
                 saldo += monto;
         }
 
-        public virtual void Extraer(float monto) 
-        { 
-            
+        public virtual void Extraer(float monto)
+        {
+            if (monto <= 0)
+            {
+                Console.WriteLine("El monto a extraer debe ser positivo.");
+                return;
+            }
         }
 
         public void MostrarSaldo()

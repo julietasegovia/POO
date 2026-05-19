@@ -10,6 +10,12 @@ namespace Cajero_Automatico
     {
         public override void Extraer(float monto)
         {
+            if (monto <= 0)
+            {
+                Console.WriteLine("El monto a extraer debe ser positivo.");
+                return;
+            }
+
             if (ObtenerSaldo() - monto >= 0)
                 RestarSaldo(monto);
             else
