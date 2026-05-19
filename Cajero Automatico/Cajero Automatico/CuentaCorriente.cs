@@ -17,10 +17,10 @@ namespace Cajero_Automatico
 
         public override void Extraer(float monto)
         {
-            if (ObtenerSaldo() - monto >= limite)
-                RestarSaldo(monto);
+            if (ObtenerSaldo() - monto < (0 - limite))
+                Console.WriteLine("La exraccion no puede superar el limite. Ingrese un valor válido");
             else
-                Console.WriteLine($"No se puede retirar más dinero del limitado. El limite de su cuenta es de {limite}. Por favor ingrese un valor válido.");
+                RestarSaldo(monto);
         }
     }
 }
